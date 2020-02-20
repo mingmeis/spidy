@@ -1,0 +1,142 @@
+*{   
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family:"ZCOOL+KuaiLe",sans-serif;
+    font-weight:400;
+    font-size:16px;
+    line-height:1.7;
+    color:coral;
+}
+
+.header{
+    height:95vh;
+    background-image: linear-gradient(to right bottom,rgba(167, 255, 26, 0.9),rgba(20, 114, 255, 0.79)),url(fern蜘蛛图册/背景1.jpg);
+    background-size:cover;
+    clip-path:polygon(0 0,100% 0,100% 50%,0 100%);
+
+}
+
+.text-box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.logo-box{
+    position:absolute;
+    top:40px;
+    left:40px;
+}
+
+.logo{
+    height:35px;
+}
+
+.heading-primary{
+    color:#fff;
+    text-transform:uppercase;
+    backface-visibility: hidden;
+}
+
+.heading-primary-main{
+    display:block;
+    font-weight:400;
+    font-size:60px;
+    letter-spacing:17.5px;
+    animation-name:moveinleft;
+    animation-duration:5s;
+}
+
+.heading-primary-sub{
+    display:block;
+    font-weight:400;
+    font-size:20px;
+    letter-spacing:5px;  
+}
+
+
+@keyframes moveinleft{
+    0%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+    80%{
+        transform:translateX(20px)；
+        
+    }
+    100%{
+        opacity:1;
+        transform:translate(0);
+    }
+}
+
+/*
+linear-gradient(to right bottom;#7ed56f,#28b485);
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 30px;
+  background-color: transperent;
+}
+nav::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navigation {
+  list-style: none;
+  float: left;
+}
+.navigation li {
+  display: inline-block;
+  margin-left: 30px;
+}
+.navigation li:frist-child {
+  margin: 0;
+}
+.navigation li a:link {
+  text-decoration: none;
+  color: color-text;
+}
+
+.button {
+  float: right;
+}
+
+.btn-main {
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 70px;
+  text-decoration: none;
+  width: 100px;
+  background-color: #f0f0f2;
+}
+.btn-main:link {
+  background-color: #f0f0f2;
+}
+.btn-main:hover {
+  background-color: #d5d5da;
+}
+
+
+
+
+
+
+
+
